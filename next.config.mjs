@@ -3,9 +3,8 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "http",
+        protocol: "https",  // Change this to https to match the URL protocol
         hostname: "utfs.io",
-        port: "",
       },
     ],
   },
